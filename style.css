@@ -4,4 +4,6 @@ body {
 header {
   color: black;
   font-style: inherit;
+  margin: 20px;
+  padding: 20px;
 }
