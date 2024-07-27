@@ -1,9 +1,40 @@
 body {
-  background-color: aliceblue;
+  background-color: rgb(168, 193, 214);
+  width: 100vh;
 }
 header {
   color: black;
   font-style: inherit;
-  margin: 20px;
-  padding: 20px;
+  width: 900px;
+  font-size: 32px;
+  font-weight: bolder;
+}
+section {
+  color: black;
+  font-style: italic;
+  font-size: 28px;
+  width: 900px;
+}
+.button {
+  background-color: #4caf50; /* Green background */
+  border: none; /* Remove border */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Get it to line up correctly */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 12px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background and transform */
+}
+
+.button:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.1); /* Slightly increase size */
+}
+.title {
+  color: black;
+  margin: 20px auto;
 }
