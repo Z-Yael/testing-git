@@ -1,40 +1,46 @@
 body {
-  background-color: rgb(168, 193, 214);
-  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #2c3e50, #bdc3c7);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
+}
+.title {
+  margin: 20px auto;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #ecf0f1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 header {
-  color: black;
   width: 80%;
   max-width: 1200px;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 20px;
   text-align: center;
   padding: 20px;
   margin: 20px auto;
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  background: rgba(44, 62, 80, 0.9);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 section {
-  color: black;
   width: 80%;
   max-width: 1200px;
   font-size: 18px;
   padding: 20px;
   margin: 20px auto;
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  background: rgba(52, 73, 94, 0.9);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
   font-style: italic;
   line-height: 1.6;
 }
 .button {
-  background-color: #4caf50; /* Green background */
+  background-color: #e74c3c; /* Red background */
   border: none; /* Remove border */
   color: white; /* White text */
   padding: 15px 32px; /* Some padding */
@@ -46,16 +52,9 @@ section {
   cursor: pointer; /* Pointer/hand icon */
   border-radius: 12px; /* Rounded corners */
   transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background and transform */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
 }
 .button:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #c0392b; /* Darker red on hover */
   transform: scale(1.1); /* Slightly increase size */
-}
-.title {
-  color: black;
-  margin: 20px auto;
-  font-size: 32px;
-  font-weight: bold;
-  text-align: center;
 }
