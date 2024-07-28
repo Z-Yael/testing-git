@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(135deg, #2c3e50, #bdc3c7);
+  background: linear-gradient(135deg, #8eddac, #6c7a61);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
@@ -53,8 +53,9 @@ section {
   border-radius: 12px; /* Rounded corners */
   transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background and transform */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+  opacity: 0.7;
 }
 .button:hover {
-  background-color: #c0392b; /* Darker red on hover */
+  opacity: 1;
   transform: scale(1.1); /* Slightly increase size */
 }
